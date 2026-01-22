@@ -12,7 +12,7 @@ import java.util.Collection;
 public class EmployeeService {
 
 @Autowired
-private  EmployeeRepository repository ;
+private EmployeeRepository repository ;
 
 
     public void addEmployee(int id, String name, double salary) {

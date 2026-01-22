@@ -1,3 +1,4 @@
+
 package com.abhay.repository;
 
 import com.abhay.model.Employee;
@@ -33,7 +34,7 @@ public class EmployeeRepository {
     }
 
     public void deleteById(int id) {
-         employeeStore.remove(id);
+        employeeStore.remove(id);
         saveToFile();
     }
 
